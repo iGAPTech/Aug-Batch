@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Internal CSS -->
+    <style>
+        table{
+            border:1px solid black;
+            border-collapse: collapse;
+            /* margin:40px; */
+            margin: auto;
+            
+        }
+
+        th,td{
+            border:1px solid black;
+            padding: 8px;
+        }
+        th{
+            background-color: rgb(233, 231, 231);
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="5">Employee Details</th>
+        </tr>
+        <tr>            
+            <th>No</th>
+            <th>Name</th>
+            <th>City</th>
+            <th>Mobile No</th>
+            <th>Score</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Kishor</td>
+            <td>Kolhapur</td>
+            <td>987826368</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td rowspan="2">2</td>
+            <td rowspan="2">Kedar</td>
+            <td rowspan="2">Pune</td>
+            <td>862348688</td>
+            <td rowspan="2">97</td>
+        </tr>
+        <tr>
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+            <!-- <td></td> -->
+            <td>9798273778</td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Vivek</td>
+            <td>Mumbai</td>
+            <td>8678623464</td>
+            <td>89</td>
+        </tr>
+        <tr>
+            <th colspan="4">Total Score</th>
+            <th>276</th>
+        </tr>
+    </table>
+</body>
+</html>
